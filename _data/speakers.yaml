@@ -19,7 +19,7 @@
   level: poziom średniozaawansowany
   requirements: wymagamy wcześniejszego doświadczenia z Azure oraz doświadczenia związanego z integracją API; potrzebna bedzie własna subskrypcja lub grupa zasobów z uprawnieniami co najmniej contributor (w przypadku braku uprawnień na całej subskrypcji, wcześniejsza rejestracja nastepujących RP - Microsoft.ApiManagement, Microsoft.Insights, Microsoft.OperationalInsights, Microsoft.Network, Microsoft.KeyVault)
   dates: wtorki, godzina 17 (12/10, 19/10, 26/10, 2/11)
-  limit: maksymalnie 15 osób
+  limit: maksymalnie 15 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Michał Furmankiewicz
   photo: MichalFurmankiewicz.jfif
@@ -42,7 +42,7 @@
   level: poziom podstawowy
   requirements: potrzebna będzie subskrypcja z uprawnieniami Contributor lub Owner (najchętniej) do całej subskrypcji lub wybranej grupy zasobów
   dates: piątki, godzina 18:00 (23/10, 6/11, 20/11, 27/11)
-  limit: maksymalnie 15 osób
+  limit: maksymalnie 15 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Robert Przybylski
   photo: RobertPrzybylski.png
@@ -84,7 +84,7 @@
   level: poziom podstawowy
   requirements: potrzebne będzie środowisko testowe wraz z licencją EMS E5 Free trial  (Azure AD Premium P2)
   dates: środy, godzina 19:00 (13/10, 20/10, 27/10, 3/11)
-  limit: maksymalnie 20 osób
+  limit: maksymalnie 20 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Agnieszka<br/>Cent
   photo: AgnieszkaCent.jpg
@@ -110,7 +110,7 @@
   level: poziom średniozaawasnowany
   requirements: wymagana jest przynajmniej podstawowa znajomość projektowania/implementowania rozwiązań IT w oparciu o (mikro)serwisy
   dates: czwartki, godzina 19:00 (21/10, 28/10, 4/11, 18/11)
-  limit: maksymalnie 15 osób
+  limit: maksymalnie 15 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Maciej<br/>Gos
   photo: MaciejGos.jpg
@@ -140,7 +140,7 @@
   level: poziom podstawowy
   requirements: brak dodatkowych wymagań
   dates: wtorki, godzina 18:00 (19/10, 26/10, 9/11, 16/11)
-  limit: maksymalnie 15 osób
+  limit: maksymalnie 15 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Kamil<br/>Więcek
   photo: KamilWiecek.jpg
@@ -151,7 +151,7 @@
   github: 
   mvp: 
   bio: Azure Tech Lead w Soft Serve<br/>Orędownik orchestracji. Obecnie konsultant Azure pomagający klientom w uniknięciu błędów podczas adaptacji chmury i DevOps.
-  workshop: Automatyzacja operations w Azure, za którą pokocha Cię Twoja organziacja
+  workshop: Automatyzacja operations w Azure, za którą pokocha Cię Twoja organizacja
   description: >
     Sprawny zespół infrastrukturalny może usprawnić pracę pozostałym teamom poprzez usuwanie przeszkód z drogi deweloperów, standaryzację i automatyzację.<br />
     <br />
@@ -171,7 +171,7 @@
   level: poziom podstawowy, momentami średniozaawansowany
   requirements: potrzebne będą Tenant Azure AD z uprawnieniami Global Administrator oraz subskrypcja Azure z uprawnieniami Ownera. Mile widziane jakieś doświadczenie w skryptowaniu i przynajmniej labowe doświadcznie w pracy z usługami Azure.
   dates: poniedziałki, godzina 18:00 (8/11, 15/11, 22/11, 29/11)
-  limit: maksymalnie 20 osób
+  limit: maksymalnie 20 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Paweł<br/>Haracz
   photo: PawelHaracz.jpg
@@ -189,17 +189,30 @@
   dates: środy, godzina 18:30 (3/11, 10/11, 17/11, 24/11)
   limit: maksymalnie 20 osób
 
-#- name: Andrzej Kokociński
-#  photo: AndrzejKokocinski.jfif
-#  ln: https://www.linkedin.com/in/%E2%98%81-andrzej-kokocinski-39024832/
-#  twitter: https://twitter.com/
-#  url: 
-#  facebook: 
-#  github: 
-#  mvp: 
-#  bio: 
-#  workshop: Security, Identity, Networking
-#  description: Opis niedostępny
-#  level: Poziom niedostępny
-#  requirements:
-#  dates: 
+- name: Andrzej Kokociński
+  photo: AndrzejKokocinski.jfif
+  ln: https://www.linkedin.com/in/%E2%98%81-andrzej-kokocinski-39024832/
+  twitter:
+  url: https://blog.clouditpro.nl
+  facebook: 
+  github: https://github.com/Andrzejkokocinski
+  mvp: 
+  bio: >
+    Od ponad 25 lat w branży IT. Odpowiedzialny za projekty doradcze, szkoleniowe i wdrożeniowe. 
+    Specjalista i architekt systemów Cloud-owych office 365, Azure jak również w on-prem takich jak Active Directory, Exchange System Center. MCT posiadający 10 letnie doświadczenie. Rozwiązania Chmurowe są dla niego narzędziem, które może pomóc w zabezpieczaniu Twojej firmy. Kiedy nie pracuje występuje na konferencjach, meetupach albo dodaje coś na blogu.
+  workshop: Zarzadzanie elementami sieciowymi oraz bezpieczeństwem w Azure
+  description: >
+      Warsztat będzie dotyczył sposobu użycia serwisów do zarządzania ruchem sieciowym oraz wykorzystania serwisów, które są pomocne w zabezpieczeniu Twojego środowiska w Azure. 
+      Spotkania będą miały charakter warsztatowy i podczas nich poruszone będą tematy: <br />
+      👉 Architektura sieci, NSG,  ASG <br />
+      👉 Azure Virtual WAN <br />
+      👉 Virtual Network Routing/Azure Firewall <br />
+      👉 Azure Load Balancer/Application Gateway/Front Door/WAF <br />
+      👉 Azure Monitor <br />
+      👉 Log Analytics <br />
+      👉 Azure Security Center/ Azure Defender <br />
+      👉 Azure Sentinel
+  level: poziom podstawowy
+  requirements: Start z poziomu podstawowego. Potrzebny będzie dostęp do subskrypcji oraz uprawnienia na niej najlepiej typu owner-a lub contributor-a, podstawowa wiedza z zakresu sieci (IP, protokoły warstw, modele ISO/OSI) oraz umiejętność zarzadzania serwisami w Azure.
+  dates: piątki, godzina 18:00 (5/11, 12/11 19/11, 26/11)
+  limit: maksymalnie 15 osób
